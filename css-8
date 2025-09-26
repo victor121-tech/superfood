@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/sacramento/v17/buEzpo6gcdjy0EiZMBUG4C0f-A.ttf) format('truetype');
+}
