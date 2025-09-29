@@ -509,11 +509,6 @@
 	<script type='text/javascript'
 		src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.1.0'
 		id='jquery-blockui-js'></script>
-	<script type='text/javascript' id='wc-add-to-cart-js-extra'>
-		/* <![CDATA[ */
-		var wc_add_to_cart_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/superfood.qodeinteractive.com\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
-		/* ]]> */
-	</script>
 	<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.1.0'
 		id='wc-add-to-cart-js'></script>
 	<script type='text/javascript'
@@ -528,10 +523,6 @@
 	<meta name="generator" content="WooCommerce 7.1.0">
 	<link rel="canonical" href="index.htm">
 	<link rel='shortlink' href='index.htm'>
-	<link rel="alternate" type="application/json+oembed"
-		href="wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsuperfood.qodeinteractive.com%2F">
-	<link rel="alternate" type="text/xml+oembed"
-		href="wp-json/oembed/1.0/embed-1?url=https%3A%2F%2Fsuperfood.qodeinteractive.com%2F&#038;format=xml">
 
 	<!-- Google Tag Manager for WordPress by gtm4wp.com -->
 	<!-- GTM Container placement set to footer -->
@@ -560,12 +551,11 @@
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
 	<meta name="generator"
 		content="Powered by Slider Revolution 6.6.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-	<link rel="icon" href="wp-content/uploads/2017/01/cropped-Favicon-32x32.png" sizes="32x32">
-	<link rel="icon" href="wp-content/uploads/2017/01/cropped-Favicon-192x192.png" sizes="192x192">
-	<link rel="apple-touch-icon" href="wp-content/uploads/2017/01/cropped-Favicon-180x180.png">
-	<meta name="msapplication-TileImage"
-		content="https://superfood.qodeinteractive.com/wp-content/uploads/2017/01/cropped-Favicon-270x270.png">
-	<script>function setREVStartSize(e) {
+	<link rel="icon" href="wp-content/uploads/images/favicon-white.png" sizes="32x32">
+	<link rel="icon" href="wp-content/uploads/images/favicon-white.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="wp-content/uploads/images/favicon-white.png">
+	<script>
+		function setREVStartSize(e) {
 			//window.requestAnimationFrame(function() {
 			window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
 			window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
@@ -612,8 +602,8 @@
 			} catch (e) {
 				console.log("Failure at Presize of Slider:" + e)
 			}
-			//});
-		};</script>
+		};
+	</script>
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
 		.vc_custom_1484321816927 {
 			padding-top: 86px !important;
@@ -691,7 +681,8 @@
 		.vc_custom_1482764581657 {
 			padding-top: 0px !important;
 		}
-	</style><noscript>
+	</style>
+	<noscript>
 		<style>
 			.wpb_animate_when_almost_visible {
 				opacity: 1;
@@ -701,8 +692,7 @@
 </head>
 
 <body
-	class="home page-template page-template-full-width page-template-full-width-php page page-id-4906 theme-superfood eltd-core-1.4 woocommerce-no-js superfood-ver-1.10 eltdf-smooth-page-transitions eltdf-mimic-ajax eltdf-grid-1300 eltdf-fade-push-text-right eltdf-header-standard eltdf-fixed-on-scroll eltdf-default-mobile-header eltdf-sticky-up-mobile-header eltdf-dropdown-slide-from-bottom eltdf-light-header eltdf-fullscreen-search eltdf-search-fade eltdf-side-menu-slide-from-right eltdf-woocommerce-columns-4 eltdf-woo-normal-space eltdf-woo-pl-info-below-image wpb-js-composer js-comp-ver-6.10.0 vc_responsive"
-	itemscope="" itemtype="http://schema.org/WebPage">
+	class="home page-template page-template-full-width page-template-full-width-php page page-id-4906 theme-superfood eltd-core-1.4 woocommerce-no-js superfood-ver-1.10 eltdf-smooth-page-transitions eltdf-mimic-ajax eltdf-grid-1300 eltdf-fade-push-text-right eltdf-header-standard eltdf-fixed-on-scroll eltdf-default-mobile-header eltdf-sticky-up-mobile-header eltdf-dropdown-slide-from-bottom eltdf-light-header eltdf-fullscreen-search eltdf-search-fade eltdf-side-menu-slide-from-right eltdf-woocommerce-columns-4 eltdf-woo-normal-space eltdf-woo-pl-info-below-image wpb-js-composer js-comp-ver-6.10.0 vc_responsive">
 	<section class="eltdf-side-menu right">
 		<div class="eltdf-close-side-menu-holder">
 			<div class="eltdf-close-side-menu-holder-inner">
@@ -721,18 +711,20 @@
 			</div>
 		</div>
 		<div class="widget eltdf-image-widget ">
-			<a itemprop="url" href="index.htm" target="_self"><img itemprop="image"
-					src="wp-content/uploads/2017/01/new-logo-small.png" alt="Side Area Image" width="" height=""></a>
+			<img itemprop="image" src="wp-content/uploads/images/logo-dark.png" alt="Side Area Image" width=""
+				height="">
 		</div>
 		<div class="widget eltdf-separator-widget">
 			<div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
 				<div class="eltdf-separator"
-					style="border-style: solid;border-bottom-width: 0px;margin-top: 9px;margin-bottom: 0px"></div>
+					style="border-style: solid;border-bottom-width:	 0px;margin-top: 9px;margin-bottom: 0px"></div>
 			</div>
 		</div>
 		<div id="text-6" class="widget eltdf-sidearea widget_text">
-			<div class="textwidget">Lorem ipsum dolor sit amet gravida nibh vel velit auctor aliquet. Aenean
-				sollicitudin, lorem quis bibendum auci. Proin gravida nibh vel veliau ctor aliquenean.</div>
+			<div class="textwidget">
+				At Mind Snacks, we believe snacking is more than just a casual bite - it's an opportunity to make a
+				mindful choice, choice that fuels your body, nourishes your soul and supports your lifestyle.
+			</div>
 		</div>
 		<div class="widget eltdf-separator-widget">
 			<div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
@@ -747,13 +739,7 @@
 			</div>
 		</div>
 		<div id="eltdf_instagram_widget-11" class="widget eltdf-sidearea widget_eltdf_instagram_widget">
-			<h4 class="eltdf-sidearea-widget-title">Follow me on instagram</h4>
-		</div>
-		<div class="widget eltdf-separator-widget">
-			<div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
-				<div class="eltdf-separator"
-					style="border-style: solid;border-bottom-width: 0px;margin-top: 30px;margin-bottom: 0px"></div>
-			</div>
+			<h4 class="eltdf-sidearea-widget-title">Follow us</h4>
 		</div>
 		<div class="eltdf-icon-widget-holder" data-icon-color="#363636" data-icon-hover-color="#363636"
 			style="color: #363636">
@@ -775,7 +761,7 @@
 			<span class="eltdf-icon-holder" style="font-size: 16px;margin: 3px 5px 0 0"><span
 					class="eltdf-icon-widget icon_mail"></span></span> <span class="eltdf-icon-text-holder"
 				style="font-size: 13px;margin: 0 0 0 0"><span class="eltdf-icon-text"><span class="__cf_email__"
-						data-cfemail="fd8e888d988f9b929299bd98859c908d9198d39e9290">[email&#160;protected]</span></span></span>
+						data-cfemail="fd8e888d988f9b929299bd98859c908d9198d39e9290">info@mindsnacks.com</span></span></span>
 		</a>
 		<div class="widget eltdf-separator-widget">
 			<div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
@@ -784,23 +770,16 @@
 			</div>
 		</div>
 		<a class="eltdf-social-icon-widget-holder" data-hover-color="#939598" data-original-color="#363636"
-			style="color: #363636;font-size: 13px;margin: 0 10px 0 0" href="https://www.instagram.com/qodeinteractive"
-			target="_blank">
+			style="color: #363636;font-size: 13px;margin: 0 10px 0 0" href="" target="_blank">
 			<span class="eltdf-social-icon-widget social_instagram"></span> </a>
 
 		<a class="eltdf-social-icon-widget-holder" data-hover-color="#939598" data-original-color="#363636"
-			style="color: #363636;font-size: 13px;margin: 0 10px 0 0" href="https://twitter.com/qodeinteractive"
-			target="_blank">
+			style="color: #363636;font-size: 13px;margin: 0 10px 0 0" href="" target="_blank">
 			<span class="eltdf-social-icon-widget social_twitter"></span> </a>
 
 		<a class="eltdf-social-icon-widget-holder" data-hover-color="#939598" data-original-color="#363636"
-			style="color: #363636;font-size: 13px;margin: 0 10px 0 0" href="https://www.facebook.com/qodeinteractive"
-			target="_blank">
+			style="color: #363636;font-size: 13px;margin: 0 10px 0 0" href="" target="_blank">
 			<span class="eltdf-social-icon-widget social_facebook"></span> </a>
-
-		<a class="eltdf-social-icon-widget-holder" data-hover-color="#939598" data-original-color="#363636"
-			style="color: #363636;font-size: 13px;margin: 0 10px 0 0" href="https://tumblr.com" target="_blank">
-			<span class="eltdf-social-icon-widget social_tumblr"></span> </a>
 
 		<a class="eltdf-social-icon-widget-holder" data-hover-color="#939598" data-original-color="#363636"
 			style="color: #363636;font-size: 13px;margin: 0 10px 0 0" href="https://www.pinterest.com/qodeinteractive"
@@ -827,31 +806,6 @@
 
 	<div class="eltdf-wrapper">
 		<div class="eltdf-wrapper-inner">
-			<div class="eltdf-fullscreen-search-holder">
-				<div class="eltdf-fullscreen-search-close-container">
-					<a class="eltdf-fullscreen-search-close" href="javascript:void(0)">
-						<span class="icon-arrows-remove"></span>
-					</a>
-				</div>
-				<div class="eltdf-fullscreen-search-table">
-					<div class="eltdf-fullscreen-search-cell">
-						<form action="https://superfood.qodeinteractive.com/" class="eltdf-fullscreen-search-form"
-							method="get">
-							<div class="eltdf-form-holder">
-								<div class="eltdf-form-holder-inner">
-									<div class="eltdf-field-holder">
-										<input type="text" placeholder="Search for..." name="s"
-											class="eltdf-search-field" autocomplete="off">
-									</div>
-									<button type="submit" class="eltdf-search-submit"><span
-											class="icon_search "></span></button>
-									<div class="eltdf-line"></div>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
 			<header class="eltdf-page-header" style="background-color:rgba(255, 255, 255, 0);margin-bottom:80px;">
 				<div class="eltdf-fixed-wrapper">
 					<div class="eltdf-menu-area eltdf-menu-right">
@@ -859,17 +813,16 @@
 							<div class="eltdf-vertical-align-containers">
 								<div class="eltdf-position-left">
 									<div class="eltdf-position-left-inner">
-
-
 										<div class="eltdf-logo-wrapper">
-											<a itemprop="url" href="index.htm" style="height: 35px;">
+											<a itemprop="url" href="index.htm" style="height: 60px;">
 												<img itemprop="image" class="eltdf-normal-logo"
-													src="wp-content/uploads/2017/01/logo.png" width="330" height="70"
-													alt="logo">
+													src="wp-content/uploads/images/logo-dark.png" width="380"
+													height="120" alt="logo">
 												<img itemprop="image" class="eltdf-dark-logo"
-													src="wp-content/uploads/2017/01/logo.png" width="330" height="70"
-													alt="dark logo"> <img itemprop="image" class="eltdf-light-logo"
-													src="wp-content/uploads/2017/01/new-logo.png" width="330"
+													src="wp-content/uploads/images/logo-dark.png" width="330"
+													height="70" alt="dark logo">
+												<img itemprop="image" class="eltdf-light-logo"
+													src="wp-content/uploads/images/logo-white.png" width="330"
 													height="70" alt="light logo"> </a>
 										</div>
 
@@ -881,944 +834,52 @@
 										<nav class="eltdf-main-menu eltdf-drop-down eltdf-default-nav">
 											<ul id="menu-main-menu" class="clearfix">
 												<li id="nav-menu-item-12"
-													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children eltdf-active-item has_sub narrow">
+													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent eltdf-active-item narrow">
 													<a href="#" class=" current "><span class="item_outer"><span
-																class="item_text">Home</span><i
-																class="eltdf-menu-arrow fa fa-angle-down"></i></span></a>
-													<div class="second">
-														<div class="inner">
-															<ul>
-																<li id="nav-menu-item-5315"
-																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4906 current_page_item ">
-																	<a href="index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Tea
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-5314"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="coffee-home/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Coffee
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-5313"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="grocery-home/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Grocery
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-2526"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="cosmetic-home/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Cosmetic
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-5312"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="restaurant-home/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Restaurant
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-5425"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="bakery-home/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Bakery
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-227"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="shop-home/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Shop
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-5495"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="icecream-home/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Icecream
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-2152"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="slider-showcase/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Slider
-																				Showcase</span></span></a>
-																</li>
-																<li id="nav-menu-item-5620"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="portfolio-home/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Portfolio
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-5628"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="blog-home/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Blog
-																				Home</span></span></a>
-																</li>
-																<li id="nav-menu-item-5317"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="coming-soon/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Coming
-																				Soon</span></span></a>
-																</li>
-																<li id="nav-menu-item-3787"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="landing/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Landing</span></span></a>
-																</li>
-															</ul>
-														</div>
-													</div>
+																class="item_text">Home</span></span></a>
 												</li>
 												<li id="nav-menu-item-13"
-													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
-													<a href="#" class=""><span class="item_outer"><span
-																class="item_text">Pages</span><i
-																class="eltdf-menu-arrow fa fa-angle-down"></i></span></a>
-													<div class="second">
-														<div class="inner">
-															<ul>
-																<li id="nav-menu-item-1100"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="about-us/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">About
-																				Us</span></span></a>
-																</li>
-																<li id="nav-menu-item-1382"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="what-we-offer/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">What We
-																				Offer</span></span></a>
-																</li>
-																<li id="nav-menu-item-7032"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="our-process/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Our
-																				Process</span></span></a>
-																</li>
-																<li id="nav-menu-item-1628"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="pricing-plans/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Pricing
-																				Plans</span></span></a>
-																</li>
-																<li id="nav-menu-item-1210"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="our-team/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Our
-																				Team</span></span></a>
-																</li>
-																<li id="nav-menu-item-5744"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="get-in-touch/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Get in
-																				Touch</span></span></a>
-																</li>
-																<li id="nav-menu-item-4053"
-																	class="menu-item menu-item-type-custom menu-item-object-custom ">
-																	<a href="https://superfood.qodeinteractive.com/error-page"
-																		class=""><span class="item_outer"><span
-																				class="item_text">404 Error
-																				Page</span></span></a>
-																</li>
-															</ul>
-														</div>
-													</div>
+													class="menu-item menu-item-type-custom menu-item-object-custom narrow">
+													<a href="about-us/index.htm" class=""><span class="item_outer"><span
+																class="item_text">About Us</span></span></a>
 												</li>
 												<li id="nav-menu-item-15"
-													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
-													<a href="#" class=""><span class="item_outer"><span
-																class="item_text">Portfolio</span><i
-																class="eltdf-menu-arrow fa fa-angle-down"></i></span></a>
-													<div class="second">
-														<div class="inner">
-															<ul>
-																<li id="nav-menu-item-2336"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Gallery</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-2253"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/gallery-with-space/two-columns/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Two
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2304"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/gallery-with-space/three-columns/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Three
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2306"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/gallery-with-space/four-columns/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Four
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2334"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/gallery/three-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Three Columns
-																						Wide No Space</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2338"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/gallery/four-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Four Columns
-																						Wide No Space</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2330"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/gallery/five-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Five Columns
-																						Wide No Space</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li id="nav-menu-item-2233"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=" no_link"
-																		onclick="JavaScript: return false;"><span
-																			class="item_outer"><span
-																				class="item_text">Standard</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-2237"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/standard-with-space/two-columns/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Two
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2236"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/standard-with-space/three-columns/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Three
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-4021"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/standard-with-space/four-columns/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Four
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-3643"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/standard-with-space/three-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Three Columns
-																						Wide</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2235"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/standard-with-space/four-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Four Columns
-																						Wide</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2234"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/standard-with-space/five-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Five Columns
-																						Wide</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li id="nav-menu-item-2693"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Masonry</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-2695"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/masonry/masonry-grid/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Masonry-No
-																						Space In Grid</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2694"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/masonry/masonry-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Masonry-No
-																						Space Wide</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2698"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/masonry-with-space/masonry-grid/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Masonry-Grid</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2697"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="portfolio/masonry-with-space/masonry-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Masonry-Wide</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li id="nav-menu-item-2238"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=" no_link"
-																		onclick="JavaScript: return false;"><span
-																			class="item_outer"><span
-																				class="item_text">Single</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-2248"
-																			class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-																			<a href="portfolio-item/heartmellon/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Masonry
-																						Top</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2247"
-																			class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-																			<a href="portfolio-item/our-fruit-mixes-2/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Masonry
-																						Side</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2250"
-																			class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-																			<a href="portfolio-item/new-green-tea/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Full
-																						Width</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2249"
-																			class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-																			<a href="portfolio-item/best-fruit-treats/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Gallery
-																						Top</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2246"
-																			class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-																			<a href="portfolio-item/yogurt-treats-3/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Gallery
-																						Standard</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2244"
-																			class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-																			<a href="portfolio-item/healthy-juices/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Small
-																						Slider</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2245"
-																			class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-																			<a href="portfolio-item/healthy-juices-2/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Big
-																						Images</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2242"
-																			class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-																			<a href="portfolio-item/coffee-biscuits-2/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Big
-																						Slider</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-															</ul>
-														</div>
-													</div>
+													class="menu-item menu-item-type-custom menu-item-object-custom narrow">
+													<a href="product/spa-cream/index-1.htm" class=""><span
+															class="item_outer"><span
+																class="item_text">Products</span></span></a>
 												</li>
 												<li id="nav-menu-item-14"
-													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
-													<a href="#" class=""><span class="item_outer"><span
-																class="item_text">Blog</span><i
-																class="eltdf-menu-arrow fa fa-angle-down"></i></span></a>
-													<div class="second">
-														<div class="inner">
-															<ul>
-																<li id="nav-menu-item-7121"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="standard/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Standard</span></span></a>
-																</li>
-																<li id="nav-menu-item-7117"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="blog-standard/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Sidebar
-																				Right</span></span></a>
-																</li>
-																<li id="nav-menu-item-3135"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="sidebar-left/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Sidebar
-																				Left</span></span></a>
-																</li>
-																<li id="nav-menu-item-864"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="blog-masonry/index.htm" class=""><span
-																			class="item_outer"><span
-																				class="item_text">Masonry</span></span></a>
-																</li>
-																<li id="nav-menu-item-881"
-																	class="menu-item menu-item-type-post_type menu-item-object-page ">
-																	<a href="blog-masonry-full-width/index.htm"
-																		class=""><span class="item_outer"><span
-																				class="item_text">Masonry Full
-																				Width</span></span></a>
-																</li>
-																<li id="nav-menu-item-616"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Single
-																				Posts</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-6090"
-																			class="menu-item menu-item-type-post_type menu-item-object-post ">
-																			<a href="the-healing-power-of-calm/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Standard</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-620"
-																			class="menu-item menu-item-type-post_type menu-item-object-post ">
-																			<a href="recharge-refresh-exist/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Right
-																						Sidebar</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-6092"
-																			class="menu-item menu-item-type-post_type menu-item-object-post ">
-																			<a href="the-best-day-of-your-life/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Left
-																						Sidebar</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-625"
-																			class="menu-item menu-item-type-post_type menu-item-object-post ">
-																			<a href="feel-the-heat-of-summer/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Audio</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-3496"
-																			class="menu-item menu-item-type-post_type menu-item-object-post ">
-																			<a href="breaking-boundaries-2/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Video</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-3498"
-																			class="menu-item menu-item-type-post_type menu-item-object-post ">
-																			<a href="steps-to-success-for-small-business/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Gallery</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-623"
-																			class="menu-item menu-item-type-post_type menu-item-object-post ">
-																			<a href="jon-kabat-zinn/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Quote</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-624"
-																			class="menu-item menu-item-type-post_type menu-item-object-post ">
-																			<a href="lorem-ipsum-dolor-sit-amet-consetetur/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Link</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-															</ul>
-														</div>
-													</div>
+													class="menu-item menu-item-type-custom menu-item-object-custom narrow">
+													<a href="shop/index-1.htm" class=""><span class="item_outer"><span
+																class="item_text">Shops</span></span></a>
 												</li>
 												<li id="nav-menu-item-17"
-													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide">
-													<a href="#" class=""><span class="item_outer"><span
-																class="item_text">Elements</span><i
-																class="eltdf-menu-arrow fa fa-angle-down"></i></span></a>
-													<div class="second">
-														<div class="inner">
-															<ul>
-																<li id="nav-menu-item-3084"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Classic</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-2047"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="accordions/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-code fa"></i></span><span
-																						class="item_text">Accordions</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2690"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="buttons/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-coffee fa"></i></span><span
-																						class="item_text">Buttons</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2144"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="google-maps/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-anchor fa"></i></span><span
-																						class="item_text">Google
-																						Maps</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2709"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="contact-form/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-angellist fa"></i></span><span
-																						class="item_text">Contact
-																						Form</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2122"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="image-gallery/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-camera fa"></i></span><span
-																						class="item_text">Image
-																						Gallery</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2802"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="image-with-text/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-bar-chart fa"></i></span><span
-																						class="item_text">Image With
-																						Text</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2812"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="banner-2/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-bus fa"></i></span><span
-																						class="item_text">Banner</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-4253"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="parallax/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-android fa"></i></span><span
-																						class="item_text">Parallax</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li id="nav-menu-item-3085"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Infographic</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-2045"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="call-to-action/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-battery-full fa"></i></span><span
-																						class="item_text">Call To
-																						Action</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2057"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="progress-bar/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-bed fa"></i></span><span
-																						class="item_text">Progress
-																						Bar</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2044"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="pricing-tables/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-500px fa"></i></span><span
-																						class="item_text">Pricing
-																						Tables</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2089"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="counters/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-car fa"></i></span><span
-																						class="item_text">Counters</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2053"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="pie-charts/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-clipboard fa"></i></span><span
-																						class="item_text">Pie
-																						Charts</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-4154"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="countdown/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-commenting fa"></i></span><span
-																						class="item_text">Countdown</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2867"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="message-boxes/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-cloud fa"></i></span><span
-																						class="item_text">Message
-																						Boxes</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li id="nav-menu-item-3087"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Presentation</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-2798"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="clients/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-500px fa"></i></span><span
-																						class="item_text">Clients</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2008"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="testimonials/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-adjust fa"></i></span><span
-																						class="item_text">Testimonials</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2007"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="carousel/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-adn fa"></i></span><span
-																						class="item_text">Carousel</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2006"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="team/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-align-center fa"></i></span><span
-																						class="item_text">Team</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-3500"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="blog-list/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-amazon fa"></i></span><span
-																						class="item_text">Blog
-																						List</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2046"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="tabs/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-ambulance fa"></i></span><span
-																						class="item_text">Tabs</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2768"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="showcase-list-item/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-american-sign-language-interpreting fa"></i></span><span
-																						class="item_text">Showcase List
-																						Item</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li id="nav-menu-item-3086"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Typography</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-4177"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="headings/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-anchor fa"></i></span><span
-																						class="item_text">Headings</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2689"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="highlights/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-android fa"></i></span><span
-																						class="item_text">Highlights</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2688"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="columns/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-angellist fa"></i></span><span
-																						class="item_text">Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2868"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="dropcaps/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-angle-double-down fa"></i></span><span
-																						class="item_text">Dropcaps</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-4139"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="blockquote/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-apple fa"></i></span><span
-																						class="item_text">Blockquote</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-2719"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="icon-with-text/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-archive fa"></i></span><span
-																						class="item_text">Icon With
-																						Text</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-4208"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="icon-list-item/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-area-chart fa"></i></span><span
-																						class="item_text">Icon List
-																						Item</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-4272"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="custom-font/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="menu_icon_wrapper"><i
-																							class="menu_icon fa-arrow-circle-down fa"></i></span><span
-																						class="item_text">Custom
-																						Font</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-															</ul>
-														</div>
-													</div>
+													class="menu-item menu-item-type-custom menu-item-object-custom wide">
+													<a href="blog-home/index.htm" class=""><span
+															class="item_outer"><span
+																class="item_text">Blog</span></span></a>
 												</li>
 												<li id="nav-menu-item-16"
-													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide">
-													<a href="#" class=""><span class="item_outer"><span
-																class="item_text">Shop</span><i
-																class="eltdf-menu-arrow fa fa-angle-down"></i></span></a>
-													<div class="second">
-														<div class="inner">
-															<ul>
-																<li id="nav-menu-item-3798"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Gallery</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-766"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="three-columns-in-grid/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Three
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-765"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="four-columns-in-grid/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Four
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-764"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="four-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Four Columns
-																						Wide</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-763"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="five-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Five Columns
-																						Wide</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-762"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="six-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Six Columns
-																						Wide</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li id="nav-menu-item-3799"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Standard</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-3817"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="standard-list-three-columns/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Three
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-838"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="standard-list-four-columns/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Four
-																						Columns</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-837"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="standard-list-four-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Four Columns
-																						Wide</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-3815"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="standard-list-five-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Five Columns
-																						Wide</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-3814"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="standard-list-six-columns-wide/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Six Columns
-																						Wide</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li id="nav-menu-item-3906"
-																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-																	<a href="#" class=""><span class="item_outer"><span
-																				class="item_text">Shop
-																				Pages</span></span></a>
-																	<ul>
-																		<li id="nav-menu-item-6347"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="shop-home/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="item_text">Shop
-																						Home</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-3907"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="shop/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="item_text">Shop
-																						List</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-4725"
-																			class="menu-item menu-item-type-post_type menu-item-object-product ">
-																			<a href="product/kiwi-smoothie/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">Shop
-																						Single</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-3909"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="my-account/index.htm"
-																				class=""><span class="item_outer"><span
-																						class="item_text">My
-																						Account</span></span></a>
-																		</li>
-																		<li id="nav-menu-item-3908"
-																			class="menu-item menu-item-type-post_type menu-item-object-page ">
-																			<a href="cart/index.htm" class=""><span
-																					class="item_outer"><span
-																						class="item_text">Checkout</span></span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li id="nav-menu-item-8131"
-																	class="menu-item menu-item-type-custom menu-item-object-custom ">
-																	<div class="widget eltdf-image-widget ">
-																		<a itemprop="url" href="shop/index.htm"
-																			target="_self"><img itemprop="image"
-																				src="wp-content/uploads/2016/12/image1.jpg"
-																				alt="Shop Image" width="250"
-																				height="215"></a>
-																	</div>
-																</li>
-															</ul>
-														</div>
-													</div>
+													class="menu-item menu-item-type-custom menu-item-object-custom wide">
+													<a href="contact-form/index.htm" class=""><span
+															class="item_outer"><span class="item_text">Contact
+																Us</span></span></a>
 												</li>
 											</ul>
 										</nav>
 
 										<div class="eltdf-shopping-cart-holder" style="padding: 5px 0 0 0">
 											<div class="eltdf-shopping-cart-inner">
-												<a itemprop="url" class="eltdf-header-cart" href="cart/index.htm">
-													<span class="eltdf-cart-icon fa fa-shopping-cart"></span>
-													<span class="eltdf-cart-number"><span>0</span></span>
+												<a itemprop="url" class="eltdf-header-cart" href="#">
+													<span class="eltdf-cart-icon fa fa-instagram"></span>
 												</a>
-												<div class="eltdf-shopping-cart-dropdown">
-													<ul>
-														<li class="eltdf-empty-cart">No products in the cart.</li>
-													</ul>
-												</div>
 											</div>
 										</div>
 
-										<a style="margin: 0 4px 0 21px" class="eltdf-search-opener"
-											href="javascript:void(0)">
+										<a style="margin: 0 4px 0 15px" class="eltdf-search-opener" href="#">
 											<span class="eltdf-search-opener-wrapper">
-												<i class="eltdf-icon-font-awesome fa fa-search "></i> </span>
+												<i class="eltdf-icon-font-awesome fa fa-facebook "></i> </span>
 										</a>
 										<a class="eltdf-side-menu-button-opener" href="javascript:void(0)">
 											<span aria-hidden="true" class="fa fa-bars eltdf-side-menu-icon"></span>
@@ -1850,580 +911,61 @@
 								</div>
 								<div class="eltdf-position-center">
 									<div class="eltdf-position-center-inner">
-
-
 										<div class="eltdf-mobile-logo-wrapper">
-											<a itemprop="url" href="index.htm" style="height: 35px">
-												<img itemprop="image" src="wp-content/uploads/2017/01/logo.png"
+											<a itemprop="url" href="index.htm" style="height: 55px">
+												<img itemprop="image" src="wp-content/uploads/images/logo-dark.png"
 													width="330" height="70" alt="mobile logo">
 											</a>
 										</div>
-
 									</div>
 								</div>
 								<div class="eltdf-position-right">
 									<div class="eltdf-position-right-inner">
 									</div>
 								</div>
-							</div> <!-- close .eltdf-vertical-align-containers -->
+							</div>
 						</div>
 					</div>
 
 					<nav class="eltdf-mobile-nav" role="navigation" aria-label="Mobile Menu">
 						<div class="eltdf-grid">
-
 							<ul id="menu-mobile-menu" class="">
 								<li id="mobile-menu-item-4416"
-									class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children eltdf-active-item has_sub">
+									class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent eltdf-active-item">
 									<a href="#" class=" current  eltdf-mobile-no-link"><span>Home</span></a><span
-										class="mobile_arrow"><i class="eltdf-sub-arrow arrow_carrot-right"></i><i
-											class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-7289"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4906 current_page_item ">
-											<a href="index.htm" class=""><span>Tea Home</span></a>
-										</li>
-										<li id="mobile-menu-item-7292"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="coffee-home/index.htm" class=""><span>Coffee Home</span></a></li>
-										<li id="mobile-menu-item-7663"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="grocery-home/index.htm" class=""><span>Grocery Home</span></a>
-										</li>
-										<li id="mobile-menu-item-7293"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="cosmetic-home/index.htm" class=""><span>Cosmetic Home</span></a>
-										</li>
-										<li id="mobile-menu-item-7299"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="restaurant-home/index.htm" class=""><span>Restaurant
-													Home</span></a></li>
-										<li id="mobile-menu-item-7290"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="bakery-home/index.htm" class=""><span>Bakery Home</span></a></li>
-										<li id="mobile-menu-item-7300"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="shop-home/index.htm" class=""><span>Shop Home</span></a></li>
-										<li id="mobile-menu-item-7295"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="icecream-home/index.htm" class=""><span>Icecream Home</span></a>
-										</li>
-										<li id="mobile-menu-item-7294"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="slider-showcase/index.htm" class=""><span>Slider
-													Showcase</span></a></li>
-										<li id="mobile-menu-item-7298"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="portfolio-home/index.htm" class=""><span>Portfolio Home</span></a>
-										</li>
-										<li id="mobile-menu-item-7291"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="blog-home/index.htm" class=""><span>Blog Home</span></a></li>
-										<li id="mobile-menu-item-7301"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="coming-soon/index.htm" class=""><span>Coming Soon</span></a></li>
-										<li id="mobile-menu-item-7297"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="landing/index.htm" class=""><span>Landing</span></a></li>
-									</ul>
+										class="mobile_arrow"></span>
 								</li>
 								<li id="mobile-menu-item-4441"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-									<a href="#" class=" eltdf-mobile-no-link"><span>Pages</span></a><span
-										class="mobile_arrow"><i class="eltdf-sub-arrow arrow_carrot-right"></i><i
-											class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-7790"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="about-us/index.htm" class=""><span>About Us</span></a></li>
-										<li id="mobile-menu-item-7793"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="what-we-offer/index.htm" class=""><span>What We Offer</span></a>
-										</li>
-										<li id="mobile-menu-item-7792"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="our-process/index.htm" class=""><span>Our Process</span></a></li>
-										<li id="mobile-menu-item-7794"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="pricing-plans/index.htm" class=""><span>Pricing Plans</span></a>
-										</li>
-										<li id="mobile-menu-item-7795"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="our-team/index.htm" class=""><span>Our Team</span></a></li>
-										<li id="mobile-menu-item-7791"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="get-in-touch/index.htm" class=""><span>Get in Touch</span></a>
-										</li>
-										<li id="mobile-menu-item-8054"
-											class="menu-item menu-item-type-custom menu-item-object-custom "><a
-												href="https://superfood.qodeinteractive.com/error-page"
-												class=""><span>404 Error Page</span></a></li>
-									</ul>
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=" eltdf-mobile-no-link"><span>About Us</span></a><span
+										class="mobile_arrow"></span>
 								</li>
 								<li id="mobile-menu-item-4510"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-									<a href="#" class=" eltdf-mobile-no-link"><span>Portfolio</span></a><span
-										class="mobile_arrow"><i class="eltdf-sub-arrow arrow_carrot-right"></i><i
-											class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-4511"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Gallery</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4512"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/gallery-with-space/two-columns/index.htm"
-														class=""><span>Two Columns</span></a></li>
-												<li id="mobile-menu-item-4513"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/gallery-with-space/three-columns/index.htm"
-														class=""><span>Three Columns</span></a></li>
-												<li id="mobile-menu-item-4514"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/gallery-with-space/four-columns/index.htm"
-														class=""><span>Four Columns</span></a></li>
-												<li id="mobile-menu-item-4515"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/gallery/three-columns-wide/index.htm"
-														class=""><span>Three Columns Wide No Space</span></a></li>
-												<li id="mobile-menu-item-4516"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/gallery/four-columns-wide/index.htm"
-														class=""><span>Four Columns Wide No Space</span></a></li>
-												<li id="mobile-menu-item-4517"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/gallery/five-columns-wide/index.htm"
-														class=""><span>Five Columns Wide No Space</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-4518"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Standard</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4519"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/standard-with-space/two-columns/index.htm"
-														class=""><span>Two Columns</span></a></li>
-												<li id="mobile-menu-item-4520"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/standard-with-space/three-columns/index.htm"
-														class=""><span>Three Columns</span></a></li>
-												<li id="mobile-menu-item-4521"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/standard-with-space/four-columns/index.htm"
-														class=""><span>Four Columns</span></a></li>
-												<li id="mobile-menu-item-4522"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/standard-with-space/three-columns-wide/index.htm"
-														class=""><span>Three Columns Wide</span></a></li>
-												<li id="mobile-menu-item-4523"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/standard-with-space/four-columns-wide/index.htm"
-														class=""><span>Four Columns Wide</span></a></li>
-												<li id="mobile-menu-item-4524"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/standard-with-space/five-columns-wide/index.htm"
-														class=""><span>Five Columns Wide</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-4525"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Masonry</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4526"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/masonry/masonry-grid/index.htm"
-														class=""><span>Masonry-Grid</span></a></li>
-												<li id="mobile-menu-item-4527"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/masonry/masonry-wide/index.htm"
-														class=""><span>Masonry-Wide</span></a></li>
-												<li id="mobile-menu-item-4528"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/masonry-with-space/masonry-grid/index.htm"
-														class=""><span>Masonry-Grid</span></a></li>
-												<li id="mobile-menu-item-4529"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="portfolio/masonry-with-space/masonry-wide/index.htm"
-														class=""><span>Masonry-Wide</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-4530"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Single</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4531"
-													class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-													<a href="portfolio-item/heartmellon/index.htm"
-														class=""><span>Masonry Top</span></a>
-												</li>
-												<li id="mobile-menu-item-4532"
-													class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-													<a href="portfolio-item/our-fruit-mixes-2/index.htm"
-														class=""><span>Masonry Side</span></a>
-												</li>
-												<li id="mobile-menu-item-4533"
-													class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-													<a href="portfolio-item/new-green-tea/index.htm" class=""><span>Full
-															Width</span></a>
-												</li>
-												<li id="mobile-menu-item-4534"
-													class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-													<a href="portfolio-item/best-fruit-treats/index.htm"
-														class=""><span>Gallery Top</span></a>
-												</li>
-												<li id="mobile-menu-item-4535"
-													class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-													<a href="portfolio-item/yogurt-treats-3/index.htm"
-														class=""><span>Gallery Standard</span></a>
-												</li>
-												<li id="mobile-menu-item-4537"
-													class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-													<a href="portfolio-item/healthy-juices/index.htm"
-														class=""><span>Small Slider</span></a>
-												</li>
-												<li id="mobile-menu-item-4538"
-													class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-													<a href="portfolio-item/healthy-juices-2/index.htm"
-														class=""><span>Big Images</span></a>
-												</li>
-												<li id="mobile-menu-item-4539"
-													class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
-													<a href="portfolio-item/coffee-biscuits-2/index.htm"
-														class=""><span>Big Slider</span></a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li id="mobile-menu-item-4540"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-									<a href="#" class=" eltdf-mobile-no-link"><span>Blog</span></a><span
-										class="mobile_arrow"><i class="eltdf-sub-arrow arrow_carrot-right"></i><i
-											class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-4541"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="standard/index.htm" class=""><span>Standard</span></a></li>
-										<li id="mobile-menu-item-4542"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="blog-home/index.htm" class=""><span>Blog Home</span></a></li>
-										<li id="mobile-menu-item-4543"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="sidebar-left/index.htm" class=""><span>Sidebar Left</span></a>
-										</li>
-										<li id="mobile-menu-item-4544"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="blog-masonry/index.htm" class=""><span>Masonry</span></a></li>
-										<li id="mobile-menu-item-4545"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="blog-masonry-full-width/index.htm" class=""><span>Masonry Full
-													Width</span></a></li>
-										<li id="mobile-menu-item-4546"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Single Posts</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4548"
-													class="menu-item menu-item-type-post_type menu-item-object-post "><a
-														href="recharge-refresh-exist/index.htm" class=""><span>Right
-															Sidebar</span></a></li>
-												<li id="mobile-menu-item-4552"
-													class="menu-item menu-item-type-post_type menu-item-object-post "><a
-														href="feel-the-heat-of-summer/index.htm"
-														class=""><span>Audio</span></a></li>
-												<li id="mobile-menu-item-4553"
-													class="menu-item menu-item-type-post_type menu-item-object-post "><a
-														href="breaking-boundaries-2/index.htm"
-														class=""><span>Video</span></a></li>
-												<li id="mobile-menu-item-4554"
-													class="menu-item menu-item-type-post_type menu-item-object-post "><a
-														href="steps-to-success-for-small-business/index.htm"
-														class=""><span>Gallery</span></a></li>
-												<li id="mobile-menu-item-4550"
-													class="menu-item menu-item-type-post_type menu-item-object-post "><a
-														href="jon-kabat-zinn/index.htm" class=""><span>Quote</span></a>
-												</li>
-												<li id="mobile-menu-item-4551"
-													class="menu-item menu-item-type-post_type menu-item-object-post "><a
-														href="lorem-ipsum-dolor-sit-amet-consetetur/index.htm"
-														class=""><span>Link</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li id="mobile-menu-item-4453"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-									<a href="#" class=" eltdf-mobile-no-link"><span>Elements</span></a><span
-										class="mobile_arrow"><i class="eltdf-sub-arrow arrow_carrot-right"></i><i
-											class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-4454"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Classic</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4455"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="accordions/index.htm" class=""><span>Accordions</span></a>
-												</li>
-												<li id="mobile-menu-item-4456"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="buttons/index.htm" class=""><span>Buttons</span></a></li>
-												<li id="mobile-menu-item-4457"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="google-maps/index.htm" class=""><span>Google
-															Maps</span></a></li>
-												<li id="mobile-menu-item-4458"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="contact-form/index.htm" class=""><span>Contact
-															Form</span></a></li>
-												<li id="mobile-menu-item-4459"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="image-gallery/index.htm" class=""><span>Image
-															Gallery</span></a></li>
-												<li id="mobile-menu-item-4460"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="image-with-text/index.htm" class=""><span>Image With
-															Text</span></a></li>
-												<li id="mobile-menu-item-4461"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="banner-2/index.htm" class=""><span>Banner</span></a></li>
-												<li id="mobile-menu-item-4462"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="parallax/index.htm" class=""><span>Parallax</span></a>
-												</li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-4463"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Infographic</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4464"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="call-to-action/index.htm" class=""><span>Call To
-															Action</span></a></li>
-												<li id="mobile-menu-item-4465"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="progress-bar/index.htm" class=""><span>Progress
-															Bar</span></a></li>
-												<li id="mobile-menu-item-4466"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="pricing-tables/index.htm" class=""><span>Pricing
-															Tables</span></a></li>
-												<li id="mobile-menu-item-4467"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="counters/index.htm" class=""><span>Counters</span></a>
-												</li>
-												<li id="mobile-menu-item-4468"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="pie-charts/index.htm" class=""><span>Pie Charts</span></a>
-												</li>
-												<li id="mobile-menu-item-4469"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="countdown/index.htm" class=""><span>Countdown</span></a>
-												</li>
-												<li id="mobile-menu-item-4470"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="message-boxes/index.htm" class=""><span>Message
-															Boxes</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-4481"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Presentation</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4482"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="clients/index.htm" class=""><span>Clients</span></a></li>
-												<li id="mobile-menu-item-4483"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="testimonials/index.htm"
-														class=""><span>Testimonials</span></a></li>
-												<li id="mobile-menu-item-4484"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="carousel/index.htm" class=""><span>Carousel</span></a>
-												</li>
-												<li id="mobile-menu-item-4485"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="team/index.htm" class=""><span>Team</span></a></li>
-												<li id="mobile-menu-item-4486"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="blog-list/index.htm" class=""><span>Blog List</span></a>
-												</li>
-												<li id="mobile-menu-item-4487"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="tabs/index.htm" class=""><span>Tabs</span></a></li>
-												<li id="mobile-menu-item-4489"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="showcase-list-item/index.htm" class=""><span>Showcase List
-															Item</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-4472"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Typography</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4473"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="headings/index.htm" class=""><span>Headings</span></a>
-												</li>
-												<li id="mobile-menu-item-4474"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="highlights/index.htm" class=""><span>Highlights</span></a>
-												</li>
-												<li id="mobile-menu-item-4475"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="columns/index.htm" class=""><span>Columns</span></a></li>
-												<li id="mobile-menu-item-4476"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="dropcaps/index.htm" class=""><span>Dropcaps</span></a>
-												</li>
-												<li id="mobile-menu-item-4477"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="blockquote/index.htm" class=""><span>Blockquote</span></a>
-												</li>
-												<li id="mobile-menu-item-4478"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="icon-with-text/index.htm" class=""><span>Icon With
-															Text</span></a></li>
-												<li id="mobile-menu-item-4479"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="icon-list-item/index.htm" class=""><span>Icon List
-															Item</span></a></li>
-												<li id="mobile-menu-item-4480"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="custom-font/index.htm" class=""><span>Custom
-															Font</span></a></li>
-											</ul>
-										</li>
-									</ul>
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=" eltdf-mobile-no-link"><span>Products</span></a><span
+										class="mobile_arrow"></span>
 								</li>
 								<li id="mobile-menu-item-4490"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-									<a href="#" class=" eltdf-mobile-no-link"><span>Shop</span></a><span
-										class="mobile_arrow"><i class="eltdf-sub-arrow arrow_carrot-right"></i><i
-											class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-4491"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Gallery</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4493"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="three-columns-in-grid/index.htm" class=""><span>Three
-															Columns</span></a></li>
-												<li id="mobile-menu-item-4494"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="four-columns-in-grid/index.htm" class=""><span>Four
-															Columns</span></a></li>
-												<li id="mobile-menu-item-4495"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="four-columns-wide/index.htm" class=""><span>Four Columns
-															Wide</span></a></li>
-												<li id="mobile-menu-item-4496"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="five-columns-wide/index.htm" class=""><span>Five Columns
-															Wide</span></a></li>
-												<li id="mobile-menu-item-4497"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="six-columns-wide/index.htm" class=""><span>Six Columns
-															Wide</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-4498"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Standard</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-4500"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="standard-list-three-columns/index.htm"
-														class=""><span>Three Columns</span></a></li>
-												<li id="mobile-menu-item-4501"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="standard-list-four-columns/index.htm" class=""><span>Four
-															Columns</span></a></li>
-												<li id="mobile-menu-item-4502"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="standard-list-four-columns-wide/index.htm"
-														class=""><span>Four Columns Wide</span></a></li>
-												<li id="mobile-menu-item-4503"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="standard-list-five-columns-wide/index.htm"
-														class=""><span>Five Columns Wide</span></a></li>
-												<li id="mobile-menu-item-4504"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="standard-list-six-columns-wide/index.htm"
-														class=""><span>Six Columns Wide</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-4505"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-											<a href="#" class=" eltdf-mobile-no-link"><span>Shop Pages</span></a><span
-												class="mobile_arrow"><i
-													class="eltdf-sub-arrow arrow_carrot-right"></i><i
-													class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-7861"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="shop-home/index.htm" class=""><span>Shop Home</span></a>
-												</li>
-												<li id="mobile-menu-item-4506"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="shop/index.htm" class=""><span>Shop List</span></a></li>
-												<li id="mobile-menu-item-4508"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="my-account/index.htm" class=""><span>My Account</span></a>
-												</li>
-												<li id="mobile-menu-item-4726"
-													class="menu-item menu-item-type-post_type menu-item-object-product ">
-													<a href="product/kiwi-smoothie/index.htm" class=""><span>Shop
-															Single</span></a>
-												</li>
-												<li id="mobile-menu-item-4507"
-													class="menu-item menu-item-type-post_type menu-item-object-page "><a
-														href="cart/index.htm" class=""><span>Checkout</span></a></li>
-											</ul>
-										</li>
-									</ul>
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=" eltdf-mobile-no-link"><span>Shops</span></a><span
+										class="mobile_arrow"></span>
+								</li>
+								<li id="mobile-menu-item-4540"
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=" eltdf-mobile-no-link"><span>Blog</span></a><span
+										class="mobile_arrow"></span>
+								</li>
+								<li id="mobile-menu-item-4453"
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=" eltdf-mobile-no-link"><span>Contact Us</span></a><span
+										class="mobile_arrow"></span>
 								</li>
 							</ul>
 						</div>
 					</nav>
 
 				</div>
-			</header> <!-- close .eltdf-mobile-header -->
+			</header>
 
 
 			<a id='eltdf-back-to-top' href='#'>
@@ -2436,114 +978,28 @@
 						<nav class="eltdf-fullscreen-menu">
 							<ul id="menu-full-screen-menu" class="">
 								<li id="popup-menu-item-4277"
-									class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children eltdf-active-item has_sub">
-									<a href="#" class=" current "><span>Home</span><i
-											class="eltdf-fullscreen-menu-arrow"></i></a>
-									<ul class="sub_menu">
-										<li id="popup-menu-item-6963"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4906 current_page_item ">
-											<a href="index.htm" class=""><span>Tea Home</span></a>
-										</li>
-										<li id="popup-menu-item-7672"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="icecream-home/index.htm" class=""><span>Icecream Home</span></a>
-										</li>
-										<li id="popup-menu-item-6965"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="cosmetic-home/index.htm" class=""><span>Cosmetic Home</span></a>
-										</li>
-										<li id="popup-menu-item-4298"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="slider-showcase/index.htm" class=""><span>Slider
-													Showcase</span></a></li>
-									</ul>
+									class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent eltdf-active-item">
+									<a href="#" class=" current "><span>Home</span></i></a>
 								</li>
 								<li id="popup-menu-item-4302"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-									<a href="#" class=""><span>Pages</span><i
-											class="eltdf-fullscreen-menu-arrow"></i></a>
-									<ul class="sub_menu">
-										<li id="popup-menu-item-6960"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="about-us/index.htm" class=""><span>About Us</span></a></li>
-										<li id="popup-menu-item-4313"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="our-process/index.htm" class=""><span>Our Process</span></a></li>
-										<li id="popup-menu-item-4305"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="our-team/index.htm" class=""><span>Our Team</span></a></li>
-										<li id="popup-menu-item-4308"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="get-in-touch/index.htm" class=""><span>Get in Touch</span></a>
-										</li>
-									</ul>
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=""><span>About Us</span></i></a>
 								</li>
 								<li id="popup-menu-item-4371"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-									<a href="#" class=""><span>Portfolio</span><i
-											class="eltdf-fullscreen-menu-arrow"></i></a>
-									<ul class="sub_menu">
-										<li id="popup-menu-item-4390"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="portfolio/masonry-with-space/masonry-wide/index.htm"
-												class=""><span>Masonry-Wide</span></a></li>
-										<li id="popup-menu-item-6968"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="portfolio/gallery/four-columns/index.htm" class=""><span>Four
-													Columns</span></a></li>
-										<li id="popup-menu-item-6970"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="portfolio/standard-with-space/four-columns/index.htm"
-												class=""><span>Four Columns</span></a></li>
-										<li id="popup-menu-item-6971"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="four-columns-wide/index.htm" class=""><span>Four Columns
-													Wide</span></a></li>
-									</ul>
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=""><span>Products</span></a>
 								</li>
 								<li id="popup-menu-item-4401"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-									<a href="#" class=""><span>Blog</span><i
-											class="eltdf-fullscreen-menu-arrow"></i></a>
-									<ul class="sub_menu">
-										<li id="popup-menu-item-4403"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="blog-home/index.htm" class=""><span>Blog Home</span></a></li>
-										<li id="popup-menu-item-6961"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="blog-masonry-full-width/index.htm" class=""><span>Blog Masonry
-													Full Width</span></a></li>
-										<li id="popup-menu-item-6962"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="blog-masonry/index.htm" class=""><span>Blog Masonry</span></a>
-										</li>
-										<li id="popup-menu-item-6966"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="standard/index.htm" class=""><span>Standard</span></a></li>
-									</ul>
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=""><span>Shops</span></a>
 								</li>
 								<li id="popup-menu-item-4351"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-									<a href="#" class=""><span>Shop</span><i
-											class="eltdf-fullscreen-menu-arrow"></i></a>
-									<ul class="sub_menu">
-										<li id="popup-menu-item-4297"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="shop-home/index.htm" class=""><span>Shop Home</span></a></li>
-										<li id="popup-menu-item-4367"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="shop/index.htm" class=""><span>Shop List</span></a></li>
-										<li id="popup-menu-item-4722"
-											class="menu-item menu-item-type-post_type menu-item-object-product "><a
-												href="product/kiwi-smoothie/index.htm" class=""><span>Shop
-													Single</span></a></li>
-										<li id="popup-menu-item-7860"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="my-account/index.htm" class=""><span>My Account</span></a></li>
-										<li id="popup-menu-item-4368"
-											class="menu-item menu-item-type-post_type menu-item-object-page "><a
-												href="cart/index.htm" class=""><span>Checkout</span></a></li>
-									</ul>
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=""><span>Blog</span></a>
+								</li>
+								<li id="popup-menu-item-4654"
+									class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#" class=""><span>Contact Us</span></a>
 								</li>
 							</ul>
 						</nav>
@@ -2555,7 +1011,7 @@
 					<div class="eltdf-full-width">
 						<div class="eltdf-full-width-inner">
 							<section class="wpb-content-wrapper">
-								<div class="vc_row wpb_row vc_row-fluid eltdf-row-type-row" style="">
+								<div class="vc_row wpb_row vc_row-fluid eltdf-row-type-row">
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner">
 											<div class="wpb_wrapper">
@@ -2563,20 +1019,18 @@
 													<!-- START Tea Home Slider REVOLUTION SLIDER 6.6.7 -->
 													<p class="rs-p-wp-fix"></p>
 													<rs-module-wrap id="rev_slider_18_1_wrapper" data-source="gallery"
-														style="visibility:hidden;background:#50c5bb;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
-														<rs-module id="rev_slider_18_1" style="" data-version="6.6.7">
+														style="visibility:hidden;background: #1c525e; padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+														<rs-module id="rev_slider_18_1" data-version="6.6.7">
 															<rs-slides style="overflow: hidden; position: absolute;">
 																<rs-slide style="position: absolute;" data-key="rs-74"
-																	data-title="Slide"
-																	data-thumb="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/back-100x50.jpg"
-																	data-duration="4010" data-anim="adpr:false;">
+																	data-title="Slide" data-duration="4010"
+																	data-anim="adpr:false;">
 																	<img src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
-																		alt="" title="Tea Home"
+																		alt="" title="Mind Snacks"
 																		class="rev-slidebg tp-rs-img rs-lazyload"
-																		data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/back.jpg"
 																		data-parallax="off" data-no-retina="">
-																	<!--
-							--><rs-layer id="slider-18-slide-74-layer-7" data-type="image" data-rsp_ch="on"
+																	<rs-layer id="slider-18-slide-74-layer-7"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="xo:-21px,-41px,-71px,-21px;yo:-13px,-13px,-13px,-12px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:270px,240px,240px,150px;h:203px,180px,180px,113px;"
@@ -2587,14 +1041,15 @@
 																		data-frame_1_mask="u:t;"
 																		data-frame_999="o:0;tp:600;st:w;sR:3210;"
 																		style="z-index:5;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/stick.png"
 																			alt="m" class="tp-rs-img rs-lazyload"
 																			width="270" height="203"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/stick.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/stick.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-9" class="rs-pxl-7" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-9"
+																		class="rs-pxl-7" data-type="image"
+																		data-rsp_ch="on"
 																		data-xy="xo:120px,70px,-10px,0;yo:230px,160px,217px,160px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:155px,135px,135px,75px;h:229px,199px,199px,140px;"
@@ -2603,14 +1058,15 @@
 																		data-frame_1="tp:600;e:power0.inOut;st:300;sp:600;sR:300;"
 																		data-frame_999="o:0;tp:600;st:w;sR:3110;"
 																		style="z-index:6;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/cranberry.png"
 																			alt="" class="tp-rs-img rs-lazyload"
 																			width="155" height="229"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/pinecone.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/cranberry.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-10" class="rs-pxl-7" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-10"
+																		class="rs-pxl-7" data-type="image"
+																		data-rsp_ch="on"
 																		data-xy="xo:0,-150px,-150px,-130px;y:b;yo:-49px,-102px,-42px,-22px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:565px,455px,495px,300px;h:452px,364,396px,240px;"
@@ -2619,14 +1075,15 @@
 																		data-frame_1="tp:600;e:power0.inOut;st:200;sp:900;sR:200;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2910;"
 																		style="z-index:7;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/coconut_half.png"
 																			alt="k" class="tp-rs-img rs-lazyload"
-																			width="565" height="452"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/brown.png"
+																			width="340" height="200"
+																			data-lazyload="wp-content/uploads/images/animation-icons/coconut_half.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-11" class="rs-pxl-7" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-11"
+																		class="rs-pxl-7" data-type="image"
+																		data-rsp_ch="on"
 																		data-xy="xo:70px,-60px,-60px,-110px;y:b;yo:-85px,-136px,-66px,-66px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:336px,256px,266px,200px;h:292px,222,231,174px;"
@@ -2635,14 +1092,15 @@
 																		data-frame_1="tp:600;e:power0.inOut;st:400;sp:900;sR:400;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2710;"
 																		style="z-index:8;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/orange.png"
 																			alt="" class="tp-rs-img rs-lazyload"
 																			width="336" height="292"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/orange.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/orange.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-12" class="rs-pxl-7" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-12"
+																		class="rs-pxl-7" data-type="image"
+																		data-rsp_ch="on"
 																		data-xy="x:c,l,l,l;xo:-478px,140px,153px,43px;y:m,t,t,t;yo:-162px,-16px,43px,77px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:243px,183px,203px,103px;h:329px,248px,275px,139px;"
@@ -2651,14 +1109,15 @@
 																		data-frame_1="tp:600;e:power0.inOut;st:100;sp:1000;sR:100;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2910;"
 																		style="z-index:9;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/black.png"
 																			alt="" class="tp-rs-img rs-lazyload"
 																			width="243" height="329"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/black.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/black.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-16" class="rs-pxl-7" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-16"
+																		class="rs-pxl-7" data-type="image"
+																		data-rsp_ch="on"
 																		data-xy="x:r;xo:367px,137px,47px,15px;y:b;yo:0,0,110px,90px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:280px,230px,250px,150px;h:283px,232,253px,152px;"
@@ -2667,14 +1126,14 @@
 																		data-frame_1="tp:600;e:power0.inOut;st:200;sp:1000;sR:200;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2810;"
 																		style="z-index:10;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/slide1-5.png"
 																			alt="s" class="tp-rs-img rs-lazyload"
 																			width="280" height="283"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/slide1-5.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/slide1-5.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-18" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-18"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:r;xo:182px,62px,42px,32px;y:b;yo:25px,5px,65px,55px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:124px,94px,94px,54px;h:176px,133px,133px,77px;"
@@ -2683,14 +1142,15 @@
 																		data-frame_1="tp:600;e:easeOutQuint;st:700;sp:600;sR:700;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2710;"
 																		style="z-index:11;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/chia_seeds.png"
 																			alt="c" class="tp-rs-img rs-lazyload"
 																			width="124" height="176"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/acorn.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/chia_seeds.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-20" class="rs-pxl-7" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-20"
+																		class="rs-pxl-7" data-type="image"
+																		data-rsp_ch="on"
 																		data-xy="x:c,c,c,r;xo:640px,440px,440px,-38px;y:m,m,m,t;yo:-66px,-42px,-42px,62px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:369px,309px,309px,175px;h:357px,299px,299px,169px;"
@@ -2699,14 +1159,15 @@
 																		data-frame_1="tp:600;e:easeOutCirc;st:500;sp:800;sR:500;"
 																		data-frame_999="o:0;tp:600;e:easeOutCirc;st:w;sR:2710;"
 																		style="z-index:12;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/coconut.png"
 																			alt="" class="tp-rs-img rs-lazyload"
 																			width="369" height="357"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/apple.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/coconut.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-21" class="rs-pxl-7" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-21"
+																		class="rs-pxl-7" data-type="image"
+																		data-rsp_ch="on"
 																		data-xy="x:r;xo:-10px,-20px,-20px,-10px;yo:7px,3px,3px,3px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:172px,132px,132px,72px;h:245px,188,188,103px;"
@@ -2715,14 +1176,14 @@
 																		data-frame_1="tp:600;e:power0.inOut;st:400;sp:800;sR:400;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2810;"
 																		style="z-index:13;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/yellow.png"
 																			alt="f" class="tp-rs-img rs-lazyload"
 																			width="172" height="245"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/yellow.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/yellow.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-13" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-13"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:c,l,l,l;xo:-390px,355px,265px,125px;y:m,t,t,t;yo:-140px,90px,20px,110px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:58px,48px,48px,28px;h:64px,53px,53px,31px;"
@@ -2731,14 +1192,14 @@
 																		data-frame_1="tp:600;e:easeOutBounce;st:500;sp:500;sR:500;"
 																		data-frame_999="o:0;tp:600;st:w;sR:3010;"
 																		style="z-index:14;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/cranberry.png"
 																			alt="d" class="tp-rs-img rs-lazyload"
 																			width="58" height="64"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/berry3.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/cranberry.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-15" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-15"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="xo:557px,367px,367px,127px;y:b;yo:147px,77px,77px,167px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:67px,57px,57px,37px;h:72px,61px,61px,40px;"
@@ -2747,14 +1208,14 @@
 																		data-frame_1="tp:600;e:easeOutBounce;st:600;sp:500;sR:600;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2910;"
 																		style="z-index:15;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/date-horizontal.png"
 																			alt="h" class="tp-rs-img rs-lazyload"
 																			width="67" height="72"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/berry2.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/date-horizontal.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-17" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-17"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:r;xo:550px,300px,250px,112px;y:b;yo:204px,174px,274px,211px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:58px,48px,48px,28px;h:65px,54px,54px,31px;"
@@ -2763,14 +1224,14 @@
 																		data-frame_1="tp:600;e:easeOutBounce;st:650;sp:500;sR:650;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2860;"
 																		style="z-index:16;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/pumpkin_seeds_horizontal.png"
 																			alt="" class="tp-rs-img rs-lazyload"
 																			width="58" height="65"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/berry7.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/pumpkin_seeds_horizontal.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-19" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-19"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:r;xo:70px,4px,3px,3px;y:b;yo:130px,98px,167px,107px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:77px,57px,57px,37px;h:83px,61px,61px,40px;"
@@ -2779,14 +1240,14 @@
 																		data-frame_1="tp:600;e:easeOutBounce;st:800;sp:500;sR:800;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2710;"
 																		style="z-index:17;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/pumpkin_seeds_horizontal.png"
 																			alt="x" class="tp-rs-img rs-lazyload"
 																			width="77" height="83"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/berry8.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/pumpkin_seeds_horizontal.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-8" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-8"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="xo:52px,22px,92px,2px;yo:219px,159px,199px,109px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:60px,50px,50px,30px;h:66px,55px,55px,33px;"
@@ -2795,14 +1256,14 @@
 																		data-frame_1="tp:600;e:easeOutBounce;st:550;sp:500;sR:550;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2960;"
 																		style="z-index:18;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/chia_seeds.png"
 																			alt="" class="tp-rs-img rs-lazyload"
 																			width="60" height="66"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/berry1.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/chia_seeds.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-22" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-22"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:r;xo:458px,178px,178px,98px;yo:154px,104px,104px,64px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:57px,47px,47px,27px;h:64px,53px,53px,30px;"
@@ -2811,14 +1272,14 @@
 																		data-frame_1="tp:600;e:easeOutBounce;st:700;sp:500;sR:700;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2810;"
 																		style="z-index:19;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/date.png"
 																			alt="z" class="tp-rs-img rs-lazyload"
 																			width="57" height="64"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/berry6.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/date.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-23" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-23"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:r;xo:456px,176px,176px,96px;yo:77px,57px,57px,32px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:73px,53px,53px,33px;h:82px,60px,60px,37px;"
@@ -2827,14 +1288,14 @@
 																		data-frame_1="tp:600;e:easeOutBounce;st:750;sp:500;sR:750;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2760;"
 																		style="z-index:20;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/cranberry.png"
 																			alt="" class="tp-rs-img rs-lazyload"
 																			width="73" height="82"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/berry5-1.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/cranberry.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-24" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-24"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:r;xo:523px,223px,223px,121px;yo:132px,92px,92px,54px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:77px,57px,57px,37px;h:83px,61px,61px,40px;"
@@ -2843,26 +1304,29 @@
 																		data-frame_1="tp:600;e:easeOutBounce;st:850;sp:500;sR:850;"
 																		data-frame_999="o:0;tp:600;st:w;sR:2660;"
 																		style="z-index:21;"><img
-																			src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																			src="wp-content/uploads/images/animation-icons/pumpkin_seed.png"
 																			alt="x" class="tp-rs-img rs-lazyload"
 																			width="77" height="83"
-																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/berry8.png"
+																			data-lazyload="wp-content/uploads/images/animation-icons/pumpkin_seed.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-1" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-1"
+																		data-type="text"
+																		data-color="rgba(255,255,255,1)"
+																		data-rsp_ch="on"
 																		data-xy="x:c;y:m;yo:-47px,-63px,-90px,-60px;"
-																		data-text="s:189,140,98,61;l:193,146,83,83;a:center;"
-																		data-dim="w:780px,auto,auto,auto;h:194px,auto,auto,auto;"
+																		data-text="s:189,67,98,61;l:193,146,83,83;a:center;"
 																		data-basealign="slide"
 																		data-frame_0="y:50px;tp:600;"
 																		data-frame_1="tp:600;e:power0.inOut;st:400;sp:500;sR:400;"
 																		data-frame_999="o:0;tp:600;e:power0.out;st:w;sp:100;sR:3110;"
-																		style="z-index:22;font-family:'Sacramento';">Fruit
-																		Tea
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-3" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on"
+																		style="z-index:22;font-family:'Sacramento';">Healthy
+																		Food, Body & Mind
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-3"
+																		data-type="text"
+																		data-color="rgba(255,255,255,1)"
+																		data-rsp_ch="on"
 																		data-xy="x:c;xo:0,10px,0,0;y:m;yo:52px,28px,-10px,5px;"
 																		data-text="w:normal;s:18,18,18,15;l:30,30,30,26;a:center;"
 																		data-dim="w:524px,524px,526px,259px;h:auto,auto,auto,64px;"
@@ -2870,14 +1334,15 @@
 																		data-frame_0="y:50px;tp:600;"
 																		data-frame_1="tp:600;e:power0.inOut;st:550;sp:500;sR:550;"
 																		data-frame_999="o:0;tp:600;e:power0.out;st:w;sp:100;sR:2960;"
-																		style="z-index:23;font-family:'Open Sans';">Etiam
-																		convallis, felis quis dapibus dictum, libero
-																		mauris luctus,
-																		non fringilla purus ligula non justo. Non
-																		fringilla purus.
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-74-layer-5" data-type="text" data-color="rgba(255,255,255,1)"
+																		style="z-index:23;font-family:'Open Sans';">From
+																		the heart of Ghana, Mind Snacks brings you
+																		wholesome granola and mindful living essentials
+																		made with love, local ingredients, and a splash
+																		of sunshine
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-74-layer-5"
+																		data-type="text"
+																		data-color="rgba(255,255,255,1)"
 																		data-xy="x:c;y:m;yo:142px,119px,80px,80px;"
 																		data-text="l:22;a:inherit;"
 																		data-vbility="t,t,t,f" data-basealign="slide"
@@ -2888,20 +1353,20 @@
 																			itemprop="url"
 																			href="https://themeforest.net/item/superfood-a-vibrant-theme-for-organic-food-and-health-products/19318249?ref=Elated-Themes"
 																			target="new window"
-																			style="color: #50c5bb;background-color: #ffffff;border-color: #ffffff"
+																			style="color: #ed1c28;background-color: #ffffff;border-color: #ffffff"
 																			class="eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-custom-hover-bg eltdf-btn-custom-border-hover eltdf-btn-custom-hover-color eltdf-btn-animation"
-																			data-hover-color="#50c5bb"
+																			data-hover-color="#ed1c28"
 																			data-hover-bg-color="#ffffff"
 																			data-hover-border-color="#ffffff">
 																			<span class="eltdf-btn-text">
-																				VIEW FEATURES <span
+																				FIND A STORE<span
 																					class="eltdf-btn-bottom-line"></span>
 																				<span
 																					class="eltdf-btn-upper-line"></span>
 																			</span>
 																		</a>
-																	</rs-layer><!--
---> </rs-slide>
+																	</rs-layer>
+																</rs-slide>
 																<rs-slide style="position: absolute;" data-key="rs-79"
 																	data-title="Slide"
 																	data-thumb="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/tea-slider-2-100x50.jpg"
@@ -2911,8 +1376,10 @@
 																		class="rev-slidebg tp-rs-img rs-lazyload"
 																		data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2016/12/tea-slider-2.jpg"
 																		data-parallax="9" data-no-retina="">
-																	<!--
-							--><rs-layer id="slider-18-slide-79-layer-3" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on"
+																	<rs-layer id="slider-18-slide-79-layer-3"
+																		data-type="text"
+																		data-color="rgba(255,255,255,1)"
+																		data-rsp_ch="on"
 																		data-xy="xo:299px,132px,46px,21px;y:t,m,m,m;yo:220px,-80px,-80px,-40px;"
 																		data-text="w:normal;s:78,78,78,58;l:83,83,83,63;fw:700;a:inherit;"
 																		data-dim="w:391px,391px,391px,270px;h:auto,auto,auto,190px;"
@@ -2922,9 +1389,11 @@
 																		data-frame_999="o:0;tp:600;st:w;sp:500;sR:2600;"
 																		style="z-index:5;font-family:'Signika';">Put the
 																		Kettle On!
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-79-layer-5" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-79-layer-5"
+																		data-type="text"
+																		data-color="rgba(255,255,255,1)"
+																		data-rsp_ch="on"
 																		data-xy="xo:303px,132px,50px,21px;y:t,t,m,m;yo:399px,354px,50px,80px;"
 																		data-text="w:normal;s:18,18,18,15;l:30,30,30,25;a:inherit;"
 																		data-dim="w:560px,560px,519px,280px;h:auto,auto,91px,137px;"
@@ -2937,9 +1406,10 @@
 																		mauris luctus,
 																		non fringilla purus ligula non justo. Non
 																		fringilla purus.
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-79-layer-7" data-type="text" data-color="rgba(255,255,255,1)"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-79-layer-7"
+																		data-type="text"
+																		data-color="rgba(255,255,255,1)"
 																		data-xy="xo:304px,132px,49px,21px;y:t,t,m,m;yo:487px,447px,120px,106px;"
 																		data-text="l:22;a:inherit;"
 																		data-vbility="t,t,t,f" data-basealign="slide"
@@ -2963,8 +1433,8 @@
 																					class="eltdf-btn-upper-line"></span>
 																			</span>
 																		</a>
-																	</rs-layer><!--
---> </rs-slide>
+																	</rs-layer>
+																</rs-slide>
 																<rs-slide style="position: absolute;" data-key="rs-71"
 																	data-title="Slide"
 																	data-thumb="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA-HOME-Slider-18-100x50.jpg"
@@ -2974,8 +1444,8 @@
 																		class="rev-slidebg tp-rs-img rs-lazyload"
 																		data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA-HOME-Slider-18.jpg"
 																		data-parallax="9" data-no-retina="">
-																	<!--
-							--><rs-layer id="slider-18-slide-71-layer-15" data-type="image" data-rsp_ch="on"
+																	<rs-layer id="slider-18-slide-71-layer-15"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="xo:1123px,820px,377px,148px;yo:-3px,-3px,-29px,-12px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:514px,422px,322px,222px;h:447px,367px,280px,193px;"
@@ -2988,9 +1458,9 @@
 																			width="514" height="447"
 																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA_HOME-Slider-17.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-8" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-8"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:c;xo:921px,701px,317px,150px;y:m;yo:237px,247px,367px,256px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:339px,293px,193px,93px;h:329px,284px,187px,90px;"
@@ -3003,9 +1473,9 @@
 																			width="339" height="329"
 																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA_HOME-Slider-10.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-9" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-9"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:c;xo:-850px,-550px,-358px,-124px;y:m;yo:64px,224px,256px,185px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:223px,183px,123px,83px;h:228px,187px,126px,85px;"
@@ -3018,9 +1488,9 @@
 																			width="223" height="228"
 																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA_HOME-Slider-11.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-10" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-10"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:c;xo:523px,423px,235px,111px;y:m;yo:137px,137px,168px,115px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:275px,235px,135px,75px;h:296px,253px,145px,81px;"
@@ -3033,9 +1503,9 @@
 																			width="275" height="296"
 																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA_HOME-Slider-12.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-11" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-11"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:c;xo:-816px,-546px,-320px,-136px;y:m;yo:-239px,-219px,-297px,-175px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:167px,127px,97px,67px;h:181px,138px,105px,73px;"
@@ -3048,9 +1518,9 @@
 																			width="167" height="181"
 																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA_HOME-Slider-13.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-12" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-12"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:c;xo:194px,194px,-15px,7px;y:m;yo:145px,175px,224px,152px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:241px,201px,151px,81px;h:173px,144px,108px,58px;"
@@ -3063,9 +1533,9 @@
 																			width="241" height="173"
 																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA_HOME-Slider-14.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-13" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-13"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:c;xo:181px,81px,-146px,-4px;y:m;yo:367px,317px,359px,208px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:195px,155px,105px,75px;h:166px,132px,89px,64px;"
@@ -3078,9 +1548,9 @@
 																			width="195" height="166"
 																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA_HOME-Slider-15.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-14" data-type="image" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-14"
+																		data-type="image" data-rsp_ch="on"
 																		data-xy="x:c;xo:236px,202px,-76px,-7px;y:m;yo:-202px,-237px,-254px,-120px;"
 																		data-text="l:22;a:inherit;"
 																		data-dim="w:304px,264px,154px,84px;h:243px,211px,123px,67px;"
@@ -3093,9 +1563,11 @@
 																			width="304" height="243"
 																			data-lazyload="//superfood.qodeinteractive.com/wp-content/uploads/2017/01/TEA_HOME-Slider-16.png"
 																			data-no-retina="">
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-1" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-1"
+																		data-type="text"
+																		data-color="rgba(255,255,255,1)"
+																		data-rsp_ch="on"
 																		data-xy="xo:297px,125px,47px,20px;y:t,t,t,m;yo:232px,215px,273px,-40px;"
 																		data-text="w:nowrap,nowrap,nowrap,normal;s:112,102,82,58;l:122,112,122,63;fw:700;a:inherit;"
 																		data-dim="w:auto,auto,auto,254px;"
@@ -3105,9 +1577,11 @@
 																		data-frame_999="o:0;tp:600;st:w;sp:500;sR:2600;"
 																		style="z-index:13;font-family:'Signika';">The
 																		Art of Tea.
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-3" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-3"
+																		data-type="text"
+																		data-color="rgba(255,255,255,1)"
+																		data-rsp_ch="on"
 																		data-xy="xo:305px,132px,47px,21px;y:t,t,t,m;yo:361px,334px,393px,100px;"
 																		data-text="w:normal;s:20,20,20,15;l:30,30,30,25;a:inherit;"
 																		data-dim="w:632px,594px,449px,264px;h:64px,91px,93px,130px;"
@@ -3120,9 +1594,10 @@
 																		tollit facilisi et, audire nam. Rebum
 																		, te posse impetus pro.
 
-																	</rs-layer><!--
-
-							--><rs-layer id="slider-18-slide-71-layer-5" data-type="text" data-color="rgba(255,255,255,1)"
+																	</rs-layer>
+																	<rs-layer id="slider-18-slide-71-layer-5"
+																		data-type="text"
+																		data-color="rgba(255,255,255,1)"
 																		data-xy="xo:303px,132px,45px,21px;yo:451px,425px,499px,329px;"
 																		data-text="l:22;a:inherit;"
 																		data-vbility="t,t,t,f" data-basealign="slide"
@@ -3146,8 +1621,8 @@
 																					class="eltdf-btn-upper-line"></span>
 																			</span>
 																		</a>
-																	</rs-layer><!--
---> </rs-slide>
+																	</rs-layer>
+																</rs-slide>
 															</rs-slides>
 														</rs-module>
 														<script data-cfasync="false"
@@ -3162,8 +1637,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="vc_row wpb_row vc_row-fluid vc_custom_1484321816927 vc_row-has-fill eltdf-row-type-row"
-									style="">
+								<div
+									class="vc_row wpb_row vc_row-fluid vc_custom_1484321816927 vc_row-has-fill eltdf-row-type-row">
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner">
 											<div class="wpb_wrapper">
@@ -3345,8 +1820,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="vc_row wpb_row vc_row-fluid vc_custom_1481879383225 eltdf-row-type-row"
-									style="">
+								<div class="vc_row wpb_row vc_row-fluid vc_custom_1481879383225 eltdf-row-type-row">
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner vc_custom_1474281536962">
 											<div class="wpb_wrapper">
@@ -3397,8 +1871,7 @@
 									</div>
 								</div>
 								<div class="eltdf-row-grid-section">
-									<div class="vc_row wpb_row vc_row-fluid vc_custom_1479377910239 eltdf-row-type-row"
-										style="">
+									<div class="vc_row wpb_row vc_row-fluid vc_custom_1479377910239 eltdf-row-type-row">
 										<div class="wpb_column vc_column_container vc_col-sm-12">
 											<div class="vc_column-inner">
 												<div class="wpb_wrapper">
@@ -3963,8 +2436,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="vc_row wpb_row vc_row-fluid vc_custom_1484320896897 vc_row-has-fill eltdf-content-aligment-center eltdf-row-type-row"
-									style="">
+								<div
+									class="vc_row wpb_row vc_row-fluid vc_custom_1484320896897 vc_row-has-fill eltdf-content-aligment-center eltdf-row-type-row">
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner vc_custom_1474285720223">
 											<div class="wpb_wrapper">
@@ -4008,8 +2481,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="vc_row wpb_row vc_row-fluid vc_custom_1479391833811 eltdf-row-type-row"
-									style="">
+								<div class="vc_row wpb_row vc_row-fluid vc_custom_1479391833811 eltdf-row-type-row">
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner">
 											<div class="wpb_wrapper">
@@ -4141,8 +2613,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="vc_row wpb_row vc_row-fluid vc_custom_1484235088459 vc_row-has-fill eltdf-row-type-row"
-									style="">
+								<div
+									class="vc_row wpb_row vc_row-fluid vc_custom_1484235088459 vc_row-has-fill eltdf-row-type-row">
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner vc_custom_1474289994877">
 											<div class="wpb_wrapper">
@@ -4217,8 +2689,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="vc_row wpb_row vc_row-fluid vc_custom_1484559434264 vc_row-has-fill eltdf-row-type-row"
-									style="">
+								<div
+									class="vc_row wpb_row vc_row-fluid vc_custom_1484559434264 vc_row-has-fill eltdf-row-type-row">
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner vc_custom_1474289413480">
 											<div class="wpb_wrapper">
@@ -4382,7 +2854,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="vc_row wpb_row vc_row-fluid eltdf-row-type-row" style="">
+								<div class="vc_row wpb_row vc_row-fluid eltdf-row-type-row">
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner vc_custom_1482764581657">
 											<div class="wpb_wrapper">
