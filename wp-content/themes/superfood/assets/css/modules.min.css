@@ -6383,6 +6383,7 @@ footer .eltdf-footer-bottom.eltdf-footer-bottom-full {
 }
 
 footer.eltdf-footer-uncover {
+    position: fixed;
     bottom: 0;
     left: 0;
     z-index: 99;
