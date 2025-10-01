@@ -6134,7 +6134,6 @@ body[class*=eltdf-sticky] .eltdf-sticky-header .eltdf-search-opener .eltdf-searc
     width: 100%;
     left: 0;
     top: 0;
-    background-color: white;
 }
 
 .eltdf-page-header .eltdf-fixed-wrapper.fixed {
@@ -6384,7 +6383,6 @@ footer .eltdf-footer-bottom.eltdf-footer-bottom-full {
 }
 
 footer.eltdf-footer-uncover {
-    position: fixed;
     bottom: 0;
     left: 0;
     z-index: 99;
@@ -9455,7 +9453,7 @@ nav.eltdf-fullscreen-menu>ul>li.eltdf-active-item>a {
 .eltdf-accordion-holder.eltdf-ac-boxed .eltdf-title-holder.ui-state-active,
 .eltdf-accordion-holder.eltdf-ac-boxed .eltdf-title-holder.ui-state-hover {
     color: #fff;
-    background-color: #ed1c28
+    background-color: #F8CA41;
 }
 
 .eltdf-accordion-holder.eltdf-ac-boxed .eltdf-accordion-content {
