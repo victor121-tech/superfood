@@ -6133,7 +6133,8 @@ body[class*=eltdf-sticky] .eltdf-sticky-header .eltdf-search-opener .eltdf-searc
     position: fixed;
     width: 100%;
     left: 0;
-    top: 0
+    top: 0;
+    background-color: white;
 }
 
 .eltdf-page-header .eltdf-fixed-wrapper.fixed {
